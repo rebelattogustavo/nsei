@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.geral{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes sobe{
+    from{
+        margin-bottom: -1200px;
+    }
+    to{
+        margin-bottom: 50;
+    }
+}
+
+.sefude{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: 6s;
+    animation-name: sobe;
+    color: white;
+}
+
